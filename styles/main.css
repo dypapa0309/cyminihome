@@ -1,0 +1,120 @@
+body {
+    font-family: 'Dotum', sans-serif;
+    background-color: #A7C6E5;
+    margin: 0;
+    padding: 20px;
+    font-size: 12px;
+}
+.container {
+    width: 830px;
+    margin: 0 auto;
+    background-color: #D6E7F8;
+    border: 3px solid #7AA6CD;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.header {
+    background-color: #064dcf;
+    color: white;
+    padding: 5px 10px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content {
+    display: flex;
+    padding: 10px;
+}
+.left-column {
+    width: 200px;
+    margin-right: 10px;
+}
+.menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    border: 1px solid #B0C4DE;
+}
+.menu li {
+    padding: 5px;
+    border-bottom: 1px solid #E8E8E8;
+}
+.profile-section {
+    background-color: white;
+    border: 1px solid #B0C4DE;
+    margin-top: 10px;
+    padding: 10px;
+}
+.profile-image {
+    width: 170px;
+    height: 170px;
+    object-fit: cover;
+    border: 1px solid #A9A9A9;
+    margin-bottom: 10px;
+}
+.right-column {
+    flex-grow: 1;
+    background-color: white;
+    border: 1px solid #B0C4DE;
+    padding: 10px;
+}
+.info-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+.info-table td {
+    padding: 2px;
+    border-bottom: 1px solid #eee;
+}
+.miniroom {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.miniroom-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+.recent-posts, .guestbook {
+    margin-top: 10px;
+}
+.star-rating {
+    color: gold;
+}
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.button {
+    background-color: #E8E8E8;
+    border: 1px solid #CCCCCC;
+    padding: 2px 5px;
+    font-size: 11px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.menu li:hover {
+    background-color: #E0E0E0;
+}
+
+.hidden {
+    display: none;
+}

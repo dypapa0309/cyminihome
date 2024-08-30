@@ -1,0 +1,46 @@
+#home-content h4 {
+    color: #064dcf;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.recent-posts p {
+    margin: 5px 0;
+}
+
+.miniroom {
+    width: 100%;
+    height: 300px;
+    background-color: #E0E0E0;
+    margin-top: 10px;
+    position: relative;
+}
+
+.minime {
+    position: absolute;
+    bottom: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 48px;
+}
+
+.speech-bubble {
+    position: absolute;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    padding: 5px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+}
+
+.guestbook {
+    margin-top: 10px;
+}
+
+.guestbook h4 {
+    color: #064dcf;
+    font-size: 14px;
+    margin-bottom: 5px;
+}

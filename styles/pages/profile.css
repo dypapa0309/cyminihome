@@ -1,0 +1,29 @@
+#profile-content {
+    font-family: 'Dotum', sans-serif;
+    font-size: 12px;
+    line-height: 1.5;
+    color: #333;
+}
+
+#profile-content h2 {
+    color: #064dcf;
+    font-size: 14px;
+    font-weight: bold;
+    border-bottom: 1px solid #B0C4DE;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+#profile-content ul {
+    list-style-type: disc;
+    padding-left: 20px;
+    margin-top: 0;
+}
+
+#profile-content li {
+    margin-bottom: 8px;
+}
+
+#profile-content li:last-child {
+    margin-bottom: 0;
+}
