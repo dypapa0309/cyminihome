@@ -2,6 +2,19 @@ document.addEventListener('DOMContentLoaded', function() {
     const menuItems = document.querySelectorAll('.menu-item');
     const contentDiv = document.getElementById('content');
 
+    // CSS 사전 로딩 함수
+    function preloadCSS(href) {
+        const link = document.createElement('link');
+        link.rel = 'stylesheet';
+        link.href = href;
+        document.head.appendChild(link);
+    }
+
+    // 모든 페이지의 CSS 사전 로딩
+    ['home', 'profile', 'projects', 'services', 'guestbook', 'challenges', 'resources'].forEach(page => {
+        preloadCSS(`styles/pages/${page}.css`);
+    });
+
     async function loadContent(page) {
         try {
             const response = await fetch(`pages/${page}.html`);
